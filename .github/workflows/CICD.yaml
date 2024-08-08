@@ -21,7 +21,7 @@ jobs:
      
       - name: Upload Docker files via SFTP
         run: |
-            scp -r ./ ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOSTNAME }}:/deploy/docker/odoo
+            scp -r ./ ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOSTNAME }}:/deploy/docker/odoo/
 
 
 
